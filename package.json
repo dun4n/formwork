@@ -1,6 +1,6 @@
 {
   "name": "formwork",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wiring object from a configuration file",
   "keywords": [
     "ioc",
@@ -32,6 +32,7 @@
     }
   ],
   "readmeFilename": "Readme.md",
+  "readme": "Wiring object from a configuration file", 
   "bugs": {
     "url": "https://github.com/dun4n/formwork/issues"
   },
