@@ -14,8 +14,28 @@
     "test": "mocha test --recursive -R spec",
     "cover": "istanbul cover _mocha test/**/*.js --dir test_coverage"
   },
-  "author": "Amaury Mylônas <amaury.mylonas+node.js@gmail.com> (http://dun4n.github.io/)",
-  "license": "MIT",
+  "author": {
+    "name": "Amaury Mylônas",
+    "email": "amaury.mylonas+node.js@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dun4n/formwork.git"
+  },
+  "engines": {
+    "node": ">= 0.10.x"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/visionmedia/mocha/master/LICENSE"
+    }
+  ],
+  "readmeFilename": "Readme.md",
+  "bugs": {
+    "url": "https://github.com/dun4n/formwork/issues"
+  },
+  "homepage": "https://github.com/dun4n/formwork",
   "devDependencies": {
     "chai": "*",
     "mocha": "*"
