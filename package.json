@@ -1,0 +1,23 @@
+{
+  "name": "formwork",
+  "version": "0.0.1",
+  "description": "Wiring object from a configuration file",
+  "keywords": [
+    "ioc",
+    "bean",
+    "wire",
+    "dependency",
+    "injection"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --recursive -R spec",
+    "cover": "istanbul cover _mocha test/**/*.js --dir test_coverage"
+  },
+  "author": "Amaury Mylônas <amaury.mylonas+node.js@gmail.com> (http://dun4n.github.io/)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  }
+}
