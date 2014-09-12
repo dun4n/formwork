@@ -1,6 +1,6 @@
 {
   "name": "formwork",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Wiring object from a configuration file",
   "keywords": [
     "ioc",
@@ -37,6 +37,9 @@
     "url": "https://github.com/dun4n/formwork/issues"
   },
   "homepage": "https://github.com/dun4n/formwork",
+  "dependencies": {
+    "semver": "~3.0.x"
+  },
   "devDependencies": {
     "chai": "*",
     "mocha": "*"
