@@ -2,6 +2,11 @@
   dependencies: {
     restify: "~2.8.x"
   },
+  on: {
+    dependency: function(name) {
+      console.log('loaded ' + name + ' from ' + require.resolve(name));
+    }
+  },
   types: [
     {
       constructor: function(name) {
